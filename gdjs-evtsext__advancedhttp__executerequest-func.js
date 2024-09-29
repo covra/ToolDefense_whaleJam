@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__AdvancedHTTP__ExecuteRequest !== "undefined") {
 gdjs.evtsExt__AdvancedHTTP__ExecuteRequest = {};
 
 
-gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.userFunc0x8e8f90 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.userFunc0x929e78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const logger = (this.logger || (this.logger = new gdjs.Logger("Advanced HTTP")));
 const advancedHTTP = (gdjs._advancedHTTP || (gdjs._advancedHTTP = { responses: new Map(), id: 1 }));
@@ -36,8 +36,9 @@ function isContentful(obj) {
     for (var x in obj) { return true; }
     return false;
 }
-const hasFormData = request.FormData && isContentful(request.FormData)
-console.log(isContentful(request.FormData), request.FormData)
+const hasFormData = request.FormData && isContentful(request.FormData);
+console.log("error aqui?:" + isContentful(request.FormData));
+console.log("EL ERROR ESTA AQUI no FormData:" + request.FormData);
 
 if (hasFormData) {
     if (request.Options.body && request.Options.body !== "") {
@@ -104,7 +105,7 @@ gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.userFunc0x8e8f90(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.userFunc0x929e78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
