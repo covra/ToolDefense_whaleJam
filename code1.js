@@ -4,6 +4,8 @@ gdjs.menuInitCode.GDbtn_9595levelObjects1= [];
 gdjs.menuInitCode.GDbtn_9595levelObjects2= [];
 gdjs.menuInitCode.GDvtn_9595reloadObjects1= [];
 gdjs.menuInitCode.GDvtn_9595reloadObjects2= [];
+gdjs.menuInitCode.GDbtn_9595SigueObjects1= [];
+gdjs.menuInitCode.GDbtn_9595SigueObjects2= [];
 
 
 gdjs.menuInitCode.eventsList0 = function(runtimeScene) {
@@ -53,12 +55,16 @@ gdjs.menuInitCode.GDbtn_9595levelObjects1.length = 0;
 gdjs.menuInitCode.GDbtn_9595levelObjects2.length = 0;
 gdjs.menuInitCode.GDvtn_9595reloadObjects1.length = 0;
 gdjs.menuInitCode.GDvtn_9595reloadObjects2.length = 0;
+gdjs.menuInitCode.GDbtn_9595SigueObjects1.length = 0;
+gdjs.menuInitCode.GDbtn_9595SigueObjects2.length = 0;
 
 gdjs.menuInitCode.eventsList1(runtimeScene);
 gdjs.menuInitCode.GDbtn_9595levelObjects1.length = 0;
 gdjs.menuInitCode.GDbtn_9595levelObjects2.length = 0;
 gdjs.menuInitCode.GDvtn_9595reloadObjects1.length = 0;
 gdjs.menuInitCode.GDvtn_9595reloadObjects2.length = 0;
+gdjs.menuInitCode.GDbtn_9595SigueObjects1.length = 0;
+gdjs.menuInitCode.GDbtn_9595SigueObjects2.length = 0;
 
 
 return;
