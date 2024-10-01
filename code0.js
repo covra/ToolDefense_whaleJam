@@ -57,7 +57,7 @@ gdjs.scn_95loginCode.GDbtn_9595SigueObjects4= [];
 gdjs.scn_95loginCode.GDbtn_9595SigueObjects5= [];
 
 
-gdjs.scn_95loginCode.asyncCallback13237516 = function (runtimeScene, asyncObjectsList) {
+gdjs.scn_95loginCode.asyncCallback10823316 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.scn_95loginCode.localVariables.length = 0;
 }
@@ -70,7 +70,7 @@ gdjs.scn_95loginCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13237516(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10823316(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -194,7 +194,7 @@ gdjs.scn_95loginCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback13241916 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback10827716 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(1);
 }gdjs.scn_95loginCode.localVariables.length = 0;
@@ -208,7 +208,7 @@ gdjs.scn_95loginCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13241916(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10827716(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -282,7 +282,7 @@ gdjs.scn_95loginCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback13244668 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback10830468 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("txt_Status"), gdjs.scn_95loginCode.GDtxt_9595StatusObjects4);
 
@@ -301,14 +301,14 @@ gdjs.scn_95loginCode.eventsList6 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 for (const obj of gdjs.scn_95loginCode.GDtxt_9595StatusObjects3) asyncObjectsList.addObject("txt_Status", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13244668(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10830468(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.scn_95loginCode.userFunc0x91bdd8 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.scn_95loginCode.userFunc0xc21548 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 const tbd = objects[0];
 const gameID = "50b9bf34-3614-4a50-86d6-ebba2c8401d7";
@@ -406,7 +406,7 @@ gdjs.copyArray(gdjs.scn_95loginCode.GDtxt_9595StatusObjects3, gdjs.scn_95loginCo
 
 var objects = [];
 objects.push.apply(objects,gdjs.scn_95loginCode.GDtxt_9595StatusObjects4);
-gdjs.scn_95loginCode.userFunc0x91bdd8(runtimeScene, objects);
+gdjs.scn_95loginCode.userFunc0xc21548(runtimeScene, objects);
 
 }
 
@@ -428,7 +428,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback13245548 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback10831348 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("txt_Status"), gdjs.scn_95loginCode.GDtxt_9595StatusObjects3);
 {for(var i = 0, len = gdjs.scn_95loginCode.GDtxt_9595StatusObjects3.length ;i < len;++i) {
@@ -448,7 +448,7 @@ gdjs.scn_95loginCode.eventsList8 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13245548(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10831348(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -535,7 +535,7 @@ gdjs.scn_95loginCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback13254068 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback10839868 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("txt_Status"), gdjs.scn_95loginCode.GDtxt_9595StatusObjects3);
 
@@ -557,7 +557,7 @@ gdjs.scn_95loginCode.eventsList11 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 for (const obj of gdjs.scn_95loginCode.GDtxt_9595StatusObjects2) asyncObjectsList.addObject("txt_Status", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13254068(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10839868(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -586,7 +586,7 @@ gdjs.scn_95loginCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback13260772 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback10846572 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("txt_login"), gdjs.scn_95loginCode.GDtxt_9595loginObjects3);
 {for(var i = 0, len = gdjs.scn_95loginCode.GDtxt_9595loginObjects3.length ;i < len;++i) {
@@ -603,36 +603,84 @@ gdjs.scn_95loginCode.eventsList13 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13260772(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10846572(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.scn_95loginCode.userFunc0x9f5aa0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.scn_95loginCode.userFunc0xc1f2e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const severKey = "6e878849fda98e72343e2b457d6ce62b"
 let playerN = runtimeScene.getVariables().get("scn_playerReq_playerN").getAsString();
 let urlToFetch = "https://api.whalepass.gg/players/" + playerN + "/redirect?gameId=e9c1747b-7101-48f1-ab33-b286eb292d2b"
+let headers = {
+    "X-API-KEY": severKey
+}
+let bIsOkResponse = false;
 
-const viewFile = async (urlToFetch) => {
 
-  // Change this to use your HTTP client
-      fetch(urlToFetch, {
-        headers: {
+async function enrollNewPlayerLink() {
+  try {
+    const response = await fetch(urlToFetch, {
+      method: 'GET',
+      headers: {
         "X-API-KEY": severKey
-        },
-      } ) // FETCH BLOB FROM IT
-        .then((response) => response.blob())
-        .then((blob) => { // RETRIEVE THE BLOB AND CREATE LOCAL URL
-          var _url = window.URL.createObjectURL(blob);
-          window.open(_url, "_blank").focus(); // window.open + focus
-          console.log("Opening window to continue process in : " , _url);
-      }).catch((err) => {
-        console.log(err);
-      });
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    //Respuesta de Whalepass
+    console.log("Enroll a player link :: response: ",data); 
+
+          if (data == undefined ) {
+              console.log(" Undefined data response => Error");
+          } else {
+            console.log("Link response: " + data.redirectionLink);
+
+          }
+
+  } catch (error) {
+    console.error('Enroll a player link :: Error al obtener el estado de la aplicación:', error);
+  }
+}
+
+enrollNewPlayerLink();
 };
+gdjs.scn_95loginCode.userFunc0xc1f468 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+const severKey = "6e878849fda98e72343e2b457d6ce62b"
+let playerN = runtimeScene.getVariables().get("scn_playerReq_playerN").getAsString();
+let urlToFetch = "https://api.whalepass.gg/players/" + playerN + "/redirect?gameId=e9c1747b-7101-48f1-ab33-b286eb292d2b"
+let headerX = {
+    "X-API-KEY": severKey
+}
+
+async function enrollPar2 (url, headers)  {
+    fetch(url, {
+        method: 'GET',
+        headers
+        })
+        .then((res) => {
+            let response = res.json()
+            console.log("response link: " + response.redirectionLink);
+        })
+        /*
+        .then((blob) => {
+            var _url = window.URL.createObjectURL(blob);
+            window.open(_url, '_blank').focus();
+        })
+        */
+};
+
+
+enrollPar2(urlToFetch, headerX);
 };
 gdjs.scn_95loginCode.eventsList14 = function(runtimeScene) {
 
@@ -676,6 +724,7 @@ gdjs.copyArray(runtimeScene.getObjects("btn_Sigue"), gdjs.scn_95loginCode.GDbtn_
 {
 
 
+gdjs.scn_95loginCode.userFunc0xc1f2e8(runtimeScene);
 
 }
 
@@ -683,7 +732,28 @@ gdjs.copyArray(runtimeScene.getObjects("btn_Sigue"), gdjs.scn_95loginCode.GDbtn_
 {
 
 
-gdjs.scn_95loginCode.userFunc0x9f5aa0(runtimeScene);
+
+}
+
+
+{
+
+
+gdjs.scn_95loginCode.userFunc0xc1f468(runtimeScene);
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
 
 }
 
