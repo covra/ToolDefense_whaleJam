@@ -57,7 +57,7 @@ gdjs.scn_95loginCode.GDbtn_9595SigueObjects4= [];
 gdjs.scn_95loginCode.GDbtn_9595SigueObjects5= [];
 
 
-gdjs.scn_95loginCode.asyncCallback10046444 = function (runtimeScene, asyncObjectsList) {
+gdjs.scn_95loginCode.asyncCallback13237516 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.scn_95loginCode.localVariables.length = 0;
 }
@@ -70,7 +70,7 @@ gdjs.scn_95loginCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10046444(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13237516(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -194,7 +194,7 @@ gdjs.scn_95loginCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback10359836 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback13241916 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(1);
 }gdjs.scn_95loginCode.localVariables.length = 0;
@@ -208,7 +208,7 @@ gdjs.scn_95loginCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10359836(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13241916(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -282,7 +282,7 @@ gdjs.scn_95loginCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback10363124 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback13244668 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("txt_Status"), gdjs.scn_95loginCode.GDtxt_9595StatusObjects4);
 
@@ -301,14 +301,14 @@ gdjs.scn_95loginCode.eventsList6 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 for (const obj of gdjs.scn_95loginCode.GDtxt_9595StatusObjects3) asyncObjectsList.addObject("txt_Status", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10363124(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13244668(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.scn_95loginCode.userFunc0x9153a0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.scn_95loginCode.userFunc0x91bdd8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 const tbd = objects[0];
 const gameID = "50b9bf34-3614-4a50-86d6-ebba2c8401d7";
@@ -317,7 +317,7 @@ let playerN = runtimeScene.getVariables().get("scn_playerReq_playerN").getAsStri
 let url = "https://api.whalepass.gg/enrollments";
 let jsonData = {
   "playerId": playerN, 
-  "gameId": "50b9bf34-3614-4a50-86d6-ebba2c8401d7" 
+  "gameId": "e9c1747b-7101-48f1-ab33-b286eb292d2b" 
 }
 let bIsOkResponse = false;
 let callbackID = runtimeScene.getVariables().get("response_playerID");
@@ -406,7 +406,7 @@ gdjs.copyArray(gdjs.scn_95loginCode.GDtxt_9595StatusObjects3, gdjs.scn_95loginCo
 
 var objects = [];
 objects.push.apply(objects,gdjs.scn_95loginCode.GDtxt_9595StatusObjects4);
-gdjs.scn_95loginCode.userFunc0x9153a0(runtimeScene, objects);
+gdjs.scn_95loginCode.userFunc0x91bdd8(runtimeScene, objects);
 
 }
 
@@ -428,7 +428,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback10364004 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback13245548 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("txt_Status"), gdjs.scn_95loginCode.GDtxt_9595StatusObjects3);
 {for(var i = 0, len = gdjs.scn_95loginCode.GDtxt_9595StatusObjects3.length ;i < len;++i) {
@@ -448,7 +448,7 @@ gdjs.scn_95loginCode.eventsList8 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10364004(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13245548(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -535,7 +535,7 @@ gdjs.scn_95loginCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback10372140 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback13254068 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("txt_Status"), gdjs.scn_95loginCode.GDtxt_9595StatusObjects3);
 
@@ -557,7 +557,7 @@ gdjs.scn_95loginCode.eventsList11 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
 for (const obj of gdjs.scn_95loginCode.GDtxt_9595StatusObjects2) asyncObjectsList.addObject("txt_Status", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10372140(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13254068(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -586,47 +586,15 @@ gdjs.scn_95loginCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.scn_95loginCode.asyncCallback9003636 = function (runtimeScene, asyncObjectsList) {
+};gdjs.scn_95loginCode.asyncCallback13260772 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("btn_Sigue"), gdjs.scn_95loginCode.GDbtn_9595SigueObjects3);
-{for(var i = 0, len = gdjs.scn_95loginCode.GDbtn_9595SigueObjects3.length ;i < len;++i) {
-    gdjs.scn_95loginCode.GDbtn_9595SigueObjects3[i].Activate(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.scn_95loginCode.GDbtn_9595SigueObjects3.length ;i < len;++i) {
-    gdjs.scn_95loginCode.GDbtn_9595SigueObjects3[i].hide(false);
+gdjs.copyArray(runtimeScene.getObjects("txt_login"), gdjs.scn_95loginCode.GDtxt_9595loginObjects3);
+{for(var i = 0, len = gdjs.scn_95loginCode.GDtxt_9595loginObjects3.length ;i < len;++i) {
+    gdjs.scn_95loginCode.GDtxt_9595loginObjects3[i].getBehavior("Text").setText("Continue in website ^^");
 }
 }gdjs.scn_95loginCode.localVariables.length = 0;
 }
-gdjs.scn_95loginCode.eventsList13 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback9003636(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.scn_95loginCode.asyncCallback10185324 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("txt_login"), gdjs.scn_95loginCode.GDtxt_9595loginObjects2);
-{gdjs.evtTools.window.openURL(runtimeScene.getScene().getVariables().getFromIndex(7).getAsString(), runtimeScene);
-}{for(var i = 0, len = gdjs.scn_95loginCode.GDtxt_9595loginObjects2.length ;i < len;++i) {
-    gdjs.scn_95loginCode.GDtxt_9595loginObjects2[i].getBehavior("Text").setText("Continue in website ^^");
-}
-}
-{ //Subevents
-gdjs.scn_95loginCode.eventsList13(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.scn_95loginCode.localVariables.length = 0;
-}
-gdjs.scn_95loginCode.eventsList14 = function(runtimeScene) {
+gdjs.scn_95loginCode.eventsList13 = function(runtimeScene) {
 
 {
 
@@ -635,14 +603,38 @@ gdjs.scn_95loginCode.eventsList14 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.scn_95loginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback10185324(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.scn_95loginCode.asyncCallback13260772(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.scn_95loginCode.eventsList15 = function(runtimeScene) {
+};gdjs.scn_95loginCode.userFunc0x9f5aa0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+const severKey = "6e878849fda98e72343e2b457d6ce62b"
+let playerN = runtimeScene.getVariables().get("scn_playerReq_playerN").getAsString();
+let urlToFetch = "https://api.whalepass.gg/players/" + playerN + "/redirect?gameId=e9c1747b-7101-48f1-ab33-b286eb292d2b"
+
+const viewFile = async (urlToFetch) => {
+
+  // Change this to use your HTTP client
+      fetch(urlToFetch, {
+        headers: {
+        "X-API-KEY": severKey
+        },
+      } ) // FETCH BLOB FROM IT
+        .then((response) => response.blob())
+        .then((blob) => { // RETRIEVE THE BLOB AND CREATE LOCAL URL
+          var _url = window.URL.createObjectURL(blob);
+          window.open(_url, "_blank").focus(); // window.open + focus
+          console.log("Opening window to continue process in : " , _url);
+      }).catch((err) => {
+        console.log(err);
+      });
+};
+};
+gdjs.scn_95loginCode.eventsList14 = function(runtimeScene) {
 
 {
 
@@ -651,13 +643,52 @@ let isConditionTrue_0 = false;
 {
 
 { //Subevents
-gdjs.scn_95loginCode.eventsList14(runtimeScene);} //End of subevents
+gdjs.scn_95loginCode.eventsList13(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.scn_95loginCode.eventsList16 = function(runtimeScene) {
+{
+
+
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("btn_Sigue"), gdjs.scn_95loginCode.GDbtn_9595SigueObjects2);
+{for(var i = 0, len = gdjs.scn_95loginCode.GDbtn_9595SigueObjects2.length ;i < len;++i) {
+    gdjs.scn_95loginCode.GDbtn_9595SigueObjects2[i].Activate(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.scn_95loginCode.GDbtn_9595SigueObjects2.length ;i < len;++i) {
+    gdjs.scn_95loginCode.GDbtn_9595SigueObjects2[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+gdjs.scn_95loginCode.userFunc0x9f5aa0(runtimeScene);
+
+}
+
+
+};gdjs.scn_95loginCode.eventsList15 = function(runtimeScene) {
 
 {
 
@@ -801,13 +832,13 @@ gdjs.copyArray(runtimeScene.getObjects("txt_Status"), gdjs.scn_95loginCode.GDtxt
 }
 }
 { //Subevents
-gdjs.scn_95loginCode.eventsList15(runtimeScene);} //End of subevents
+gdjs.scn_95loginCode.eventsList14(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.scn_95loginCode.eventsList17 = function(runtimeScene) {
+};gdjs.scn_95loginCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -862,7 +893,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.scn_95loginCode.eventsList18 = function(runtimeScene) {
+};gdjs.scn_95loginCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -874,7 +905,7 @@ gdjs.scn_95loginCode.eventsList2(runtimeScene);
 {
 
 
-gdjs.scn_95loginCode.eventsList16(runtimeScene);
+gdjs.scn_95loginCode.eventsList15(runtimeScene);
 }
 
 
@@ -902,7 +933,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.scn_95loginCode.eventsList17(runtimeScene);
+gdjs.scn_95loginCode.eventsList16(runtimeScene);
 }
 
 
@@ -967,7 +998,7 @@ gdjs.scn_95loginCode.GDbtn_9595SigueObjects3.length = 0;
 gdjs.scn_95loginCode.GDbtn_9595SigueObjects4.length = 0;
 gdjs.scn_95loginCode.GDbtn_9595SigueObjects5.length = 0;
 
-gdjs.scn_95loginCode.eventsList18(runtimeScene);
+gdjs.scn_95loginCode.eventsList17(runtimeScene);
 gdjs.scn_95loginCode.GDspr_9595backgObjects1.length = 0;
 gdjs.scn_95loginCode.GDspr_9595backgObjects2.length = 0;
 gdjs.scn_95loginCode.GDspr_9595backgObjects3.length = 0;
